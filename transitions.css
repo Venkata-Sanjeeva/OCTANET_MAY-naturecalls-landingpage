@@ -1,0 +1,31 @@
+#img-1:hover, #img-2:hover, #img-3:hover, #img-4:hover{
+    scale: 1.03;
+    transition: scale 0.8s ease;
+}
+
+.button-div:active,.body-btn:active {
+    scale: 0.96;
+    /* background-color: lightgray;
+    color: black; */
+}
+
+.middle ul li:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.body-btn:hover, .button-div:hover {
+    background-color: #fff;
+    color: #ff0000;
+    transition: 0.4s ease;
+}
+
+.right:hover {
+    background-color: white;
+    color: rgb(0, 99, 191);
+    border: 2px solid rgb(0, 99, 191);
+}
+
+.right:active {
+    scale: 0.95;
+}
+
